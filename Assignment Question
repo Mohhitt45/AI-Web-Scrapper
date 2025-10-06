@@ -1,0 +1,26 @@
+Please find the Assignment below:
+
+Task for AI software Engg.
+
+We’re evaluating a solution for automated web data extraction with optional AI/NLP enrichment. Please review the scope below and share a working prototype along with code and documentation.
+
+Objective
+Build a system that scrapes target websites, cleans the data, extracts structured fields, and (optionally) enriches the results using AI/NLP.
+
+Inputs
+Target sources (e.g., company directories, e-commerce listings).
+A list of URLs or a CSV containing company/profile links.
+
+Core Scope
+Web scraping/crawling with configurable rate limits and retries.
+Cleaning/normalization (dedupe, trim, standardize phone/email/URLs).
+Structured extraction (e.g., company name, website, address, phone, email, category, description, social links).
+Output to CSV and/or in Tabular format.
+
+Reporting / Visualization
+Generate a simple run log/report.
+Totals: profiles/records scraped.
+Counts: complete vs. incomplete entries (e.g., missing email/phone), and error/retry stats.
+
+Deliverables
+Code (ZIP or Git repo link) with a clear README covering
